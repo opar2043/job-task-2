@@ -47,26 +47,27 @@ const Navbar = () => {
               {link}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl uppercase">Devlop.ME</a>
+          <a className="btn btn-ghost text-2xl font-bold uppercase">
+            Devlop.ME
+          </a>
         </div>
-         <div className=" hidden lg:flex lg:justify-end w-full justify-end">
-        <div className="flex justify-between ">
-          <div className="navbar-end ">
-            <ul className="flex gap-2 justify-end ">{link}</ul>
-          </div>
-          <div className="navbar-end ">
-            <button className="py-2 rounded-3xl  flex  items-center gap-2">
-              <FaRegArrowAltCircleRight /> Start Project
-            </button>
+        <div className=" hidden lg:flex lg:justify-end w-full justify-end">
+          <div className="flex justify-between ">
+            <div className="navbar-end ">
+              <ul className="flex gap-4 justify-end text-gray-900">{link}</ul>
+            </div>
+            <div className="navbar-end ">
+              <button className="py-2 rounded-3xl pr-1 border border-black  flex  items-center gap-2">
+                <FaRegArrowAltCircleRight /> Start Project
+              </button>
+            </div>
           </div>
         </div>
-         </div>
       </div>
     </div>
   );
 };
 
 export default Navbar;
-
 
 // menu menu-horizontal px-1 justify-end border-2

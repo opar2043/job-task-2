@@ -8,7 +8,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className="relative md:max-h-[888px] w-full bg-gradient-to-r from-white via-[#ecf9ff] to-[#bbf1d4] overflow-hidden mb-4">
+    <div className="relative w-full bg-gradient-to-r from-white via-[#ecf9ff] to-[#bbf1d4] overflow-hidden mb-4">
       {/* Main Content */}
       <div className="max-w-screen-xl mx-auto px-6 md:px-20 py-20 flex flex-col justify-center">
         <h1 className="text-[32px] md:text-7xl font-bold md:leading-[80px] text-black">

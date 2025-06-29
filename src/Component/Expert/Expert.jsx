@@ -10,7 +10,7 @@ import {
 
 const Expert = () => {
   return (
-    <div className="bg-black md:w-[1410px] md:h-[600px] h-full text-white">
+    <div className="bg-black h-full text-white py-10">
       <div className="w-10/12 mx-auto pt-10">
         <div className="flex flex-col md:flex-row justify-between  mx-auto items-center">
           {/* Upper sectuion -1  */}
@@ -53,42 +53,48 @@ const Expert = () => {
 
         {/* Lower Section */}
         <div className="flex flex-col md:flex-row gap-2 pt-12">
-            <div className="flex flex-col gap-2  rounded-xl p-3 bg-white/15 w-[430px] h-[230px]">
-                <div className="md:text-8xl text-4xl">
-                    <FaReact></FaReact>
-                </div>
-                <div>
-                    <h2 className="text-xl md:text-2xl font-bold">HTML X CSS</h2>
-                </div>
-                <div className="text-gray-300">
-                    <p className="text-gray-300 text-xs">Duis aute irure dolor in reprehenderit <br />
-                         in voluptate. Ut enim ad minim veniam, quis</p>
-                </div>
+          <div className="flex flex-col gap-2  rounded-xl p-3 bg-white/15 md:w-[430px] md:h-[230px]">
+            <div className="md:text-8xl text-4xl">
+              <FaReact></FaReact>
             </div>
-            <div className="flex flex-col gap-2 bg-white/15 rounded-xl p-3 w-[430px] h-[230px] md:rotate-12">
-                <div className="md:text-8xl text-4xl">
-                    <FaReact></FaReact>
-                </div>
-                <div>
-                    <h2 className="text-xl md:text-2xl font-bold">Java Script</h2>
-                </div>
-                <div className="text-gray-300">
-                    <p className="text-gray-300 text-xs">Duis aute irure dolor in reprehenderit <br />
-                         in voluptate. Ut enim ad minim veniam, quis</p>
-                </div>
+            <div>
+              <h2 className="text-xl md:text-2xl font-bold">HTML X CSS</h2>
             </div>
-            <div className="flex flex-col gap-2 bg-white/15 rounded-xl p-3  w-[430px] h-[230px]">
-                <div className="md:text-8xl text-4xl">
-                    <FaReact></FaReact>
-                </div>
-                <div>
-                    <h2 className="text-xl md:text-2xl font-bold">Webflow</h2>
-                </div>
-                <div className="text-gray-300">
-                    <p className="text-gray-300 text-xs">Duis aute irure dolor in reprehenderit <br />
-                         in voluptate. Ut enim ad minim veniam, quis</p>
-                </div>
+            <div className="text-gray-300">
+              <p className="text-gray-300 text-xs">
+                Duis aute irure dolor in reprehenderit <br />
+                in voluptate. Ut enim ad minim veniam, quis
+              </p>
             </div>
+          </div>
+          <div className="flex flex-col gap-2 bg-white/15 rounded-xl p-3 md:w-[430px] md:h-[230px] md:rotate-12">
+            <div className="md:text-8xl text-4xl">
+              <FaReact></FaReact>
+            </div>
+            <div>
+              <h2 className="text-xl md:text-2xl font-bold">Java Script</h2>
+            </div>
+            <div className="text-gray-300">
+              <p className="text-gray-300 text-xs">
+                Duis aute irure dolor in reprehenderit <br />
+                in voluptate. Ut enim ad minim veniam, quis
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-2 bg-white/15 rounded-xl p-3  md:w-[430px] md:h-[230px]">
+            <div className="md:text-8xl text-4xl">
+              <FaReact></FaReact>
+            </div>
+            <div>
+              <h2 className="text-xl md:text-2xl font-bold">Webflow</h2>
+            </div>
+            <div className="text-gray-300">
+              <p className="text-gray-300 text-xs">
+                Duis aute irure dolor in reprehenderit <br />
+                in voluptate. Ut enim ad minim veniam, quis
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

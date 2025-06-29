@@ -31,7 +31,6 @@ const Proccess = () => {
 
         {/* Lower Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-12 md:w-10/12 mx-auto">
-
           <div className="flex flex-col gap-2 bg-black rounded-xl py-4 px-6 md:w-[430px] md:h-[230px]">
             <div className="flex justify-between">
               <button className="px-3 bg-teal-300  rounded-full p-1 text-black text-sm">
@@ -54,7 +53,10 @@ const Proccess = () => {
               <button className="px-3 bg-black  rounded-full p-1 text-white text-sm">
                 Stratigy
               </button>
-              <a href="#" className="underline flex items-center gap-1 text-black">
+              <a
+                href="#"
+                className="underline flex items-center gap-1 text-black"
+              >
                 <FaArrowRight></FaArrowRight> Read More
               </a>
             </div>
